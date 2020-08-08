@@ -15,7 +15,7 @@ public class Display_Message : MonoBehaviour
         if (player.enabled == true)
         {
             Display_text.text = "You are ready to move \n Press 'w' to move forward\n Press 'd' to move right\nPress 'a' to move left\nPress 's'to move  backward \n" +
-                "Press 'e'to move top right \n Press 'q'to ove top left\n Press 'c'to move bottom right\n Press 'z'to move bottom left \nPress 'j' to jump" ;
+                "Press 'e'to move top right \n Press 'q'to ove top left\n Press 'c'to move bottom right\n Press 'z'to move bottom left \nPress 'j' to jump\nReach to the flag" ;
 
         }
         else if (player.enabled == false)

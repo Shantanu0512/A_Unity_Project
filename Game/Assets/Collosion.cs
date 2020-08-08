@@ -9,6 +9,7 @@ public class Collosion : MonoBehaviour
         {
             Debug.Log("You are hit Press r to move again");
             player.enabled = false;
+            
         }
        
     }
